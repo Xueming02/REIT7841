@@ -16,28 +16,26 @@ are included in this repository.
 
 ## Open the deployed prototype
 
-After GitHub Pages is enabled for the repository, use:
+The interactive prototype is deployed through GitHub Pages. The following links use the pseudonymous participant code `DEMO` for assessment and demonstration purposes:
 
-- Baseline: `?mode=baseline&participant=DEMO`
-- Moving Preview: `?mode=thumbnail&participant=DEMO`
-- Text Preview: `?mode=text&participant=DEMO`
+- [Baseline condition — no advance preview](https://xueming02.github.io/REIT7841/REIT7841_Prototype_Upload/?mode=baseline&participant=DEMO)
+- [Moving Preview condition — moving visual preview of the actual next video](https://xueming02.github.io/REIT7841/REIT7841_Prototype_Upload/?mode=thumbnail&participant=DEMO)
+- [Text Preview condition — title and tags of the actual next video](https://xueming02.github.io/REIT7841/REIT7841_Prototype_Upload/?mode=text&participant=DEMO)
 
-Replace `DEMO` only with a pseudonymous participant code. The root
-`index.html` is a self-contained deployment file for GitHub Pages.
+Replace `DEMO` only with a pseudonymous participant code. The `index.html` file in this directory is a self-contained GitHub Pages deployment file.
 
 ## Source code
 
-The editable Vite project is in [`source/`](source/):
+- [Complete GitHub repository](https://github.com/Xueming02/REIT7841)
+- [Editable Vite source code](https://github.com/Xueming02/REIT7841/tree/main/REIT7841_Prototype_Upload/source)
+- [Downloadable source-code archive](prototype-source.zip)
 
-- `source/src/main.js` contains the video sequence, interface logic, condition
-  handling, interaction logging, and session export;
+The editable Vite project is located in the `source/` directory:
+
+- `source/src/main.js` contains the video sequence, interface logic, condition handling, interaction logging, and session export;
 - `source/src/style.css` contains the responsive mobile interface styles;
 - `source/index.html` is the Vite entry page;
-- `source/package.json` and `source/package-lock.json` record the development
-  dependency and scripts.
-
-An archival copy of the source is also provided as
-[`prototype-source.zip`](prototype-source.zip).
+- `source/package.json` and `source/package-lock.json` record the development dependency and scripts.
 
 ## Run the editable source locally
 
